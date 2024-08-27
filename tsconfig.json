@@ -4,7 +4,9 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "strict": true,
+    "strictNullChecks": false,
     "noImplicitOverride": true,
+    "strictPropertyInitialization": false,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,

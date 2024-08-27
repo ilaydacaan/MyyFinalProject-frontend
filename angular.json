@@ -37,7 +37,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -94,12 +98,18 @@
               "src/assets"
             ],
             "styles": [
+              "C:/kamp--frontend/my-app/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "C:/kamp--frontend/my-app/node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
+              
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
